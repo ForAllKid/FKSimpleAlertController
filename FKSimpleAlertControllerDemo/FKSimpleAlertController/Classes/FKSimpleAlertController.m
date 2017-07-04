@@ -43,9 +43,9 @@
                                                                                  content:content
                                                                                leftTitle:leftTitle
                                                                               rightTitle:rightTitle];
-
+    
     return controller;
-
+    
 }
 
 - (instancetype)initWithTitle:(NSString *)title
@@ -67,25 +67,33 @@
         
         CGSize caculateSize = CGSizeMake(self.view.frame.size.width - FKSC_MarginHorizontal * 2, CGFLOAT_MAX);
         NSStringDrawingOptions options = NSStringDrawingUsesFontLeading | NSStringDrawingUsesLineFragmentOrigin;
-
+        
         NSDictionary *titleAttributes = @{NSFontAttributeName:_containerView.titleLabel.font};
         CGFloat titleHeight = [title boundingRectWithSize:caculateSize
-                                                        options:options
-                                                     attributes:titleAttributes
-                                                        context:nil].size.height;
+                                                  options:options
+                                               attributes:titleAttributes
+                                                  context:nil].size.height;
         titleHeight = ceil(titleHeight);
         
         NSDictionary *contentAttributes = @{NSFontAttributeName:_containerView.contentLabel.font};
         CGFloat contentHeight = [content boundingRectWithSize:caculateSize
-                                                            options:options
-                                                         attributes:contentAttributes
-                                                            context:nil].size.height;
+                                                      options:options
+                                                   attributes:contentAttributes
+                                                      context:nil].size.height;
         contentHeight = ceil(contentHeight);
         if (contentHeight < 60) {
             contentHeight = 60;
         }
         
         _containerViewHeight = FKSC_MarginVertical + titleHeight + FKSC_Padding + contentHeight + FKSC_Padding + FKSC_LineHeight + FKSC_ButtonHeight;
+        
+        [_containerView.leftButton addTarget:self
+                                      action:@selector(leftButtonPressed)
+                            forControlEvents:UIControlEventTouchUpInside];
+        
+        [_containerView.rightButton addTarget:self
+                                       action:@selector(rightButtonPressed)
+                             forControlEvents:UIControlEventTouchUpInside];
         
         [self.view addSubview:_containerView];
     }
@@ -94,7 +102,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 #pragma mark - config
@@ -104,6 +111,22 @@
 
 
 #pragma mark - actions
+
+- (void)leftButtonPressed{
+    [self dismissViewControllerAnimated:YES completion:^{
+        if (self.leftHandler) {
+            self.leftHandler();
+        }
+    }];
+}
+
+- (void)rightButtonPressed{
+    [self dismissViewControllerAnimated:YES completion:^{
+        if (self.rightHandler) {
+            self.rightHandler();
+        }
+    }];
+}
 
 
 #pragma mark - notification center
@@ -122,7 +145,6 @@
     [super viewWillLayoutSubviews];
     self.containerView.frame = CGRectMake(0, 0, self.view.frame.size.width - 100, _containerViewHeight);
     self.containerView.center = CGPointMake(kWidth/2, kHeight/2);
-    
 }
 
 
@@ -131,13 +153,6 @@
 
 
 #pragma mark - getter
-
-//- (FKSimpleAlertContainerView *)containerView{
-//    if (!_containerView) {
-//        _containerView = [[FKSimpleAlertContainerView alloc] init];
-//    }
-//    return _containerView;
-//}
 
 
 
