@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71ADD6241F02205A006D15B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADD6231F02205A006D15B6 /* main.m */; };
+		71ADD6271F02205A006D15B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADD6261F02205A006D15B6 /* AppDelegate.m */; };
+		71ADD62A1F02205A006D15B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71ADD6291F02205A006D15B6 /* ViewController.m */; };
+		71ADD62D1F02205A006D15B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71ADD62B1F02205A006D15B6 /* Main.storyboard */; };
+		71ADD62F1F02205A006D15B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71ADD62E1F02205A006D15B6 /* Assets.xcassets */; };
+		71ADD6321F02205A006D15B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71ADD6301F02205A006D15B6 /* LaunchScreen.storyboard */; };
+		71B8ACDA1F0B7C60001FB259 /* FKSimpleAlertAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8ACD21F0B7C60001FB259 /* FKSimpleAlertAnimator.m */; };
+		71B8ACDB1F0B7C60001FB259 /* FKSimpleAlertContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8ACD41F0B7C60001FB259 /* FKSimpleAlertContainerView.m */; };
+		71B8ACDC1F0B7C60001FB259 /* FKSimpleAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8ACD61F0B7C60001FB259 /* FKSimpleAlertController.m */; };
+		71B8ACDD1F0B7C60001FB259 /* FKSimpleAlertController_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B8ACD81F0B7C60001FB259 /* FKSimpleAlertController_bg.png */; };
+		71B8ACDE1F0B7C60001FB259 /* FKSimpleAlertController_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71B8ACD91F0B7C60001FB259 /* FKSimpleAlertController_bg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71ADD61F1F02205A006D15B6 /* FKSimpleAlertControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKSimpleAlertControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71ADD6231F02205A006D15B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71ADD6251F02205A006D15B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71ADD6261F02205A006D15B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71ADD6281F02205A006D15B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71ADD6291F02205A006D15B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71ADD62C1F02205A006D15B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71ADD62E1F02205A006D15B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71ADD6311F02205A006D15B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71ADD6331F02205A006D15B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B8ACD11F0B7C60001FB259 /* FKSimpleAlertAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSimpleAlertAnimator.h; sourceTree = "<group>"; };
+		71B8ACD21F0B7C60001FB259 /* FKSimpleAlertAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSimpleAlertAnimator.m; sourceTree = "<group>"; };
+		71B8ACD31F0B7C60001FB259 /* FKSimpleAlertContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSimpleAlertContainerView.h; sourceTree = "<group>"; };
+		71B8ACD41F0B7C60001FB259 /* FKSimpleAlertContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSimpleAlertContainerView.m; sourceTree = "<group>"; };
+		71B8ACD51F0B7C60001FB259 /* FKSimpleAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSimpleAlertController.h; sourceTree = "<group>"; };
+		71B8ACD61F0B7C60001FB259 /* FKSimpleAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSimpleAlertController.m; sourceTree = "<group>"; };
+		71B8ACD81F0B7C60001FB259 /* FKSimpleAlertController_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FKSimpleAlertController_bg.png; sourceTree = "<group>"; };
+		71B8ACD91F0B7C60001FB259 /* FKSimpleAlertController_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FKSimpleAlertController_bg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71ADD61C1F02205A006D15B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71ADD6161F02205A006D15B6 = {
+			isa = PBXGroup;
+			children = (
+				71ADD6211F02205A006D15B6 /* FKSimpleAlertControllerDemo */,
+				71ADD6201F02205A006D15B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71ADD6201F02205A006D15B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71ADD61F1F02205A006D15B6 /* FKSimpleAlertControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71ADD6211F02205A006D15B6 /* FKSimpleAlertControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				71ADD6391F022084006D15B6 /* FKSimpleAlertController */,
+				71ADD6251F02205A006D15B6 /* AppDelegate.h */,
+				71ADD6261F02205A006D15B6 /* AppDelegate.m */,
+				71ADD6281F02205A006D15B6 /* ViewController.h */,
+				71ADD6291F02205A006D15B6 /* ViewController.m */,
+				71ADD62B1F02205A006D15B6 /* Main.storyboard */,
+				71ADD62E1F02205A006D15B6 /* Assets.xcassets */,
+				71ADD6301F02205A006D15B6 /* LaunchScreen.storyboard */,
+				71ADD6331F02205A006D15B6 /* Info.plist */,
+				71ADD6221F02205A006D15B6 /* Supporting Files */,
+			);
+			path = FKSimpleAlertControllerDemo;
+			sourceTree = "<group>";
+		};
+		71ADD6221F02205A006D15B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71ADD6231F02205A006D15B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71ADD6391F022084006D15B6 /* FKSimpleAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				71B8ACD01F0B7C60001FB259 /* Classes */,
+				71B8ACD71F0B7C60001FB259 /* Resources */,
+			);
+			path = FKSimpleAlertController;
+			sourceTree = "<group>";
+		};
+		71B8ACD01F0B7C60001FB259 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				71B8ACD11F0B7C60001FB259 /* FKSimpleAlertAnimator.h */,
+				71B8ACD21F0B7C60001FB259 /* FKSimpleAlertAnimator.m */,
+				71B8ACD31F0B7C60001FB259 /* FKSimpleAlertContainerView.h */,
+				71B8ACD41F0B7C60001FB259 /* FKSimpleAlertContainerView.m */,
+				71B8ACD51F0B7C60001FB259 /* FKSimpleAlertController.h */,
+				71B8ACD61F0B7C60001FB259 /* FKSimpleAlertController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		71B8ACD71F0B7C60001FB259 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71B8ACD81F0B7C60001FB259 /* FKSimpleAlertController_bg.png */,
+				71B8ACD91F0B7C60001FB259 /* FKSimpleAlertController_bg@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71ADD61E1F02205A006D15B6 /* FKSimpleAlertControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71ADD6361F02205A006D15B6 /* Build configuration list for PBXNativeTarget "FKSimpleAlertControllerDemo" */;
+			buildPhases = (
+				71ADD61B1F02205A006D15B6 /* Sources */,
+				71ADD61C1F02205A006D15B6 /* Frameworks */,
+				71ADD61D1F02205A006D15B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FKSimpleAlertControllerDemo;
+			productName = FKSimpleAlertControllerDemo;
+			productReference = 71ADD61F1F02205A006D15B6 /* FKSimpleAlertControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71ADD6171F02205A006D15B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ForKid;
+				TargetAttributes = {
+					71ADD61E1F02205A006D15B6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 71ADD61A1F02205A006D15B6 /* Build configuration list for PBXProject "FKSimpleAlertControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71ADD6161F02205A006D15B6;
+			productRefGroup = 71ADD6201F02205A006D15B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71ADD61E1F02205A006D15B6 /* FKSimpleAlertControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71ADD61D1F02205A006D15B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B8ACDD1F0B7C60001FB259 /* FKSimpleAlertController_bg.png in Resources */,
+				71B8ACDE1F0B7C60001FB259 /* FKSimpleAlertController_bg@2x.png in Resources */,
+				71ADD6321F02205A006D15B6 /* LaunchScreen.storyboard in Resources */,
+				71ADD62F1F02205A006D15B6 /* Assets.xcassets in Resources */,
+				71ADD62D1F02205A006D15B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71ADD61B1F02205A006D15B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B8ACDB1F0B7C60001FB259 /* FKSimpleAlertContainerView.m in Sources */,
+				71B8ACDA1F0B7C60001FB259 /* FKSimpleAlertAnimator.m in Sources */,
+				71ADD62A1F02205A006D15B6 /* ViewController.m in Sources */,
+				71B8ACDC1F0B7C60001FB259 /* FKSimpleAlertController.m in Sources */,
+				71ADD6271F02205A006D15B6 /* AppDelegate.m in Sources */,
+				71ADD6241F02205A006D15B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71ADD62B1F02205A006D15B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71ADD62C1F02205A006D15B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71ADD6301F02205A006D15B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71ADD6311F02205A006D15B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71ADD6341F02205A006D15B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71ADD6351F02205A006D15B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71ADD6371F02205A006D15B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FKSimpleAlertControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forkid.FKSimpleAlertControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71ADD6381F02205A006D15B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FKSimpleAlertControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forkid.FKSimpleAlertControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71ADD61A1F02205A006D15B6 /* Build configuration list for PBXProject "FKSimpleAlertControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71ADD6341F02205A006D15B6 /* Debug */,
+				71ADD6351F02205A006D15B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71ADD6361F02205A006D15B6 /* Build configuration list for PBXNativeTarget "FKSimpleAlertControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71ADD6371F02205A006D15B6 /* Debug */,
+				71ADD6381F02205A006D15B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71ADD6171F02205A006D15B6 /* Project object */;
+}
