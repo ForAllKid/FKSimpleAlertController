@@ -24,6 +24,11 @@
     self = [super initWithFrame:frame];
     if (self) {
         
+        self.layer.shadowColor = [UIColor lightGrayColor].CGColor;
+        self.layer.shadowOffset = CGSizeMake(0, 0);
+        self.layer.shadowRadius = 10.f;
+        self.layer.shadowOpacity = 1.f;
+        
         UIImage *image = [UIImage imageNamed:@"FKSimpleAlertController_bg"];
         CGSize imageSize = image.size;
         
@@ -38,7 +43,6 @@
         _backImageView.image = image;
         [self addSubview:_backImageView];
         
-//        self.backgroundColor = [UIColor colorWithPatternImage:image];
         
         _titleLabel = [UILabel new];
         _titleLabel.textAlignment = NSTextAlignmentCenter;

@@ -143,7 +143,11 @@
 
 - (void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
-    self.containerView.frame = CGRectMake(0, 0, self.view.frame.size.width - 100, _containerViewHeight);
+    CGFloat width = self.view.frame.size.width - 100;
+    if (width > 275) {
+        width = 275;
+    }
+    self.containerView.frame = CGRectMake(0, 0, width, _containerViewHeight);
     self.containerView.center = CGPointMake(kWidth/2, kHeight/2);
 }
 
