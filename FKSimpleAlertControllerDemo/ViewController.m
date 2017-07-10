@@ -26,7 +26,7 @@
 - (IBAction)show:(id)sender {
 
     FKSimpleAlertController *controller = [FKSimpleAlertController alertControllerWithTitle:@"提示"
-                                                                                    content:@"书柜一打开,如图书信息有误,清空书柜"
+                                                                                    content:@"这是一个测试用的文字描述"
                                                                                   leftTitle:@"是"
                                                                                  rightTitle:@"否"];
     
