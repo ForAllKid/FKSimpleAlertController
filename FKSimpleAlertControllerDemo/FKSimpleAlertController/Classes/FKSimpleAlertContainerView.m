@@ -59,13 +59,13 @@
         [self addSubview:_contentLabel];
         
         _leftButton = [UIButton new];
-        _leftButton.titleLabel.font = [UIFont systemFontOfSize:18.f weight:UIFontWeightLight];
+        _leftButton.titleLabel.font = [UIFont systemFontOfSize:18.f];
         _leftButton.titleLabel.textAlignment = NSTextAlignmentCenter;
-        [_leftButton setTitleColor:[self colorWithHex:0x65c4aa] forState:UIControlStateNormal];
+        [_leftButton setTitleColor:[self colorWithHex:0xcccccc] forState:UIControlStateNormal];
         [self addSubview:_leftButton];
         
         _rightButton = [UIButton new];
-        _rightButton.titleLabel.font = [UIFont systemFontOfSize:18.f weight:UIFontWeightLight];
+        _rightButton.titleLabel.font = [UIFont systemFontOfSize:18.f];
         _rightButton.titleLabel.textAlignment = NSTextAlignmentCenter;
         [_rightButton setTitleColor:[self colorWithHex:0x65c4aa] forState:UIControlStateNormal];
         [self addSubview:_rightButton];
